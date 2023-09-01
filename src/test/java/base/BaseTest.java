@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
 public class BaseTest {
     WebDriver driver;
    public ReadDataFromJsonFile readDataFromJsonFile;
-    public HomePage homePage;
+   public HomePage homePage;
 
     @BeforeTest
     public void SetUp() throws FileNotFoundException {
